@@ -153,12 +153,32 @@
       bottom: -350px;
     }
     /* areas we practice section */
-    .top-content{
-      margin-top: 81px;
+    .image-box{
+      padding: 25px;
     }
-    .top-content h2{
-      padding-bottom: 20px;
+    .rights-img{
+      padding: 25px 25px;
+      column-gap: 20px;
     }
+    /* arrowsin slider */
+  .prev-arrow{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #2474a9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .next-arrow{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #2474a9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
     /* for each image box */
     .rights-img {
       display: grid;
